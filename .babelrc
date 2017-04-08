@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "next/babel",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime",
+    ["import",{"libraryName": "antd","style": "css"}],
+    [
+      "css-modules-transform",
+      {
+        "extensions": [
+          ".css",
+          ".less"
+        ],
+        "extractCss": "./static/css/style.css"
+      }
+    ]
+  ]
+}

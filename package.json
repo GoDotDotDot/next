@@ -1,0 +1,29 @@
+{
+  "name": "godotdotdot",
+  "version": "1.0.0",
+  "description": "nextjs,Framework for server-rendered React App",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "kuichu",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.9.0",
+    "next": "^2.1.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  },
+  "devDependencies": {
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "css-modules-require-hook": "^4.0.6",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.16.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
