@@ -13,6 +13,7 @@
           ".css",
           ".less"
         ],
+        "generateScopedName": "[local]",
         "extractCss": "./static/css/style.css"
       }
     ]
